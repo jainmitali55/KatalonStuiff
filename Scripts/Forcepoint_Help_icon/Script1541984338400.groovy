@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
+//help icon identification
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Forcepoint Policy Distribution/Help_Icon'),0);
 WebUI.click(findTestObject('Object Repository/Page_Forcepoint Policy Distribution/Help_Icon'));
 WebUI.verifyTextPresent(WebUI.getText(findTestObject('Object Repository/Page_Forcepoint Policy Distribution/Main_Help_option')),false);
