@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PortalUI_Navigation" time="19" tests="2" failures="0" errors="0">
+   <testsuite name="PortalUI_Navigation" tests="2" failures="0" errors="0" time="19" timestamp="2018-11-12 13:44:00" hostname="Administrator - WIN-3AVL6HABRJU" id="Test Suites/PortalUI_Navigation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Documents\\KatalonTry\\Reports\\PortalUI_Navigation\\20181112_134351"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Documents\\KatalonTry\\Reports\\PortalUI_Navigation\\20181112_134351\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - WIN-3AVL6HABRJU"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="33b5b6638d5c76c10b08b8ba799162ac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/Forcepoint_Profile_icon" classname="Test Cases/Forcepoint_Profile_icon" status="PASSED">
+         <system-out><![CDATA[2018-11-12 13:44:11 - [TEST_CASE][PASSED] - Test Cases/Forcepoint_Profile_icon: Test Cases/Forcepoint_Profile_icon
+
+2018-11-12 13:44:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/ploicy_tab' is clicked on
+
+2018-11-12 13:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/ploicy_tab' is clicked on
+
+2018-11-12 13:44:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Forcepoint Policy Distribution/Profile_Icon' is present
+
+2018-11-12 13:44:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-12 13:44:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forcepoint Policy Distribution/Profile_Icon' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Forcepoint_Help_icon" classname="Test Cases/Forcepoint_Help_icon" status="PASSED">
+         <system-out><![CDATA[2018-11-12 13:44:15 - [TEST_CASE][PASSED] - Test Cases/Forcepoint_Help_icon: Test Cases/Forcepoint_Help_icon
+
+2018-11-12 13:44:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Forcepoint Policy Distribution/Help_Icon' is present
+
+2018-11-12 13:44:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-12 13:44:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forcepoint Policy Distribution/Help_Icon' is present
+
+2018-11-12 13:44:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/Help_Icon' is clicked on
+
+2018-11-12 13:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/Help_Icon' is clicked on
+
+2018-11-12 13:44:16 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Main Help' is present on page 
+
+2018-11-12 13:44:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forcepoint Policy Distribution/Main_Help_option' is: 'Main Help'
+
+2018-11-12 13:44:16 - [MESSAGE][PASSED] - Text 'Main Help' is present on page 
+
+2018-11-12 13:44:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/Main_Help_option' is clicked on
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/Main_Help_option' is clicked on
+
+2018-11-12 13:44:17 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-11-12 13:44:17 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-12 13:44:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/Help_Icon' is clicked on
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/Help_Icon' is clicked on
+
+2018-11-12 13:44:17 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Page Help' is present on page 
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forcepoint Policy Distribution/Page_Help_option' is: 'Page Help'
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Text 'Page Help' is present on page 
+
+2018-11-12 13:44:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/Page_Help_option' is clicked on
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/Page_Help_option' is clicked on
+
+2018-11-12 13:44:17 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '2'
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2018-11-12 13:44:17 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-12 13:44:17 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 13:44:00 - [TEST_SUITE][PASSED] - PortalUI_Navigation: Test Cases/Forcepoint_Help_icon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

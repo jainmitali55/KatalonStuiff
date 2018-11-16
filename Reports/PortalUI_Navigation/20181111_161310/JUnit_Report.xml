@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PortalUI_Navigation" time="16" tests="1" failures="0" errors="0">
+   <testsuite name="PortalUI_Navigation" tests="1" failures="0" errors="0" time="16" timestamp="2018-11-11 16:13:18" hostname="Administrator - WIN-3AVL6HABRJU" id="Test Suites/PortalUI_Navigation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Documents\\KatalonTry\\Reports\\PortalUI_Navigation\\20181111_161310"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Documents\\KatalonTry\\Reports\\PortalUI_Navigation\\20181111_161310\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - WIN-3AVL6HABRJU"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="80704dfde423b085a925595d85216c69"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/Forcepoint_Profile_icon" classname="Test Cases/Forcepoint_Profile_icon" status="PASSED">
+         <system-out><![CDATA[2018-11-11 16:13:18 - [TEST_CASE][PASSED] - Test Cases/Forcepoint_Profile_icon: Test Cases/Forcepoint_Profile_icon
+
+2018-11-11 16:13:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-11 16:13:23 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-11 16:13:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://d3q8tkbt92fl1q.cloudfront.net/#/login' successfully
+
+2018-11-11 16:13:26 - [MESSAGE][PASSED] - Navigate to 'https://d3q8tkbt92fl1q.cloudfront.net/#/login' successfully
+
+2018-11-11 16:13:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'Nicholas.Stocks@forcepoint.com' sent to object: 'Object Repository/Page_Forcepoint Policy Distribution/input_Sign In_text-field form-'
+
+2018-11-11 16:13:27 - [MESSAGE][PASSED] - Keys 'Nicholas.Stocks@forcepoint.com' sent to object: 'Object Repository/Page_Forcepoint Policy Distribution/input_Sign In_text-field form-'
+
+2018-11-11 16:13:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'F0rcep0int!' sent to object: 'Object Repository/Page_Forcepoint Policy Distribution/password_field'
+
+2018-11-11 16:13:27 - [MESSAGE][PASSED] - Keys 'F0rcep0int!' sent to object: 'Object Repository/Page_Forcepoint Policy Distribution/password_field'
+
+2018-11-11 16:13:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/Sign_In_button' is clicked on
+
+2018-11-11 16:13:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/Sign_In_button' is clicked on
+
+2018-11-11 16:13:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/ploicy_tab' is clicked on
+
+2018-11-11 16:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/ploicy_tab' is clicked on
+
+2018-11-11 16:13:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Forcepoint Policy Distribution/Profile_Icon' is present
+
+2018-11-11 16:13:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-11 16:13:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forcepoint Policy Distribution/Profile_Icon' is present
+
+2018-11-11 16:13:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/Profile_Icon' is clicked on
+
+2018-11-11 16:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/Profile_Icon' is clicked on
+
+2018-11-11 16:13:32 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Forcepoint Policy Distribution/Log_Out_button)): Text of object 'Object Repository/Page_Forcepoint Policy Distribution/Log_Out_button' is: 'Log Out'
+
+2018-11-11 16:13:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forcepoint Policy Distribution/Log_Out_button' is: 'Log Out'
+
+2018-11-11 16:13:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log Out' is present on page 
+
+2018-11-11 16:13:33 - [MESSAGE][PASSED] - Text 'Log Out' is present on page 
+
+2018-11-11 16:13:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forcepoint Policy Distribution/Log_Out_button' is clicked on
+
+2018-11-11 16:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forcepoint Policy Distribution/Log_Out_button' is clicked on
+
+2018-11-11 16:13:34 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl().contains("/login"): Current window's url is: 'https://d3q8tkbt92fl1q.cloudfront.net/#/login'
+
+2018-11-11 16:13:34 - [MESSAGE][PASSED] - Current window's url is: 'https://d3q8tkbt92fl1q.cloudfront.net/#/login']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-11 16:13:18 - [TEST_SUITE][PASSED] - PortalUI_Navigation: Test Cases/Forcepoint_Profile_icon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

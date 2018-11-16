@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Main_Help_option</name>
+   <tag></tag>
+   <elementGuidId>8788b82f-f5cf-4a27-af05-a9c9fb4a2e74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-object-id</name>
+      <type>Main</type>
+      <value>mainHelp</value>
+   </webElementProperties>
+</WebElementEntity>

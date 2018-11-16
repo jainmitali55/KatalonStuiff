@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Help_Icon</name>
+   <tag></tag>
+   <elementGuidId>7c8b0284-0b96-49d6-a60c-55ba2167b996</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-object-id</name>
+      <type>Main</type>
+      <value>helpIcon</value>
+   </webElementProperties>
+</WebElementEntity>
