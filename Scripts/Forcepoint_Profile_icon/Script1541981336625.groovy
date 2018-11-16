@@ -13,6 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
+//Profile icon test 
 WebUI.click(findTestObject('Object Repository/Page_Forcepoint Policy Distribution/ploicy_tab'));
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Forcepoint Policy Distribution/Profile_Icon'), 0);
