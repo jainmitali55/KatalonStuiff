@@ -16,3 +16,4 @@ import internal.GlobalVariable as GlobalVariable
 //Profile icon test 
 WebUI.click(findTestObject('Object Repository/Page_Forcepoint Policy Distribution/ploicy_tab'));
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Forcepoint Policy Distribution/Profile_Icon'), 0);
+//end of test
